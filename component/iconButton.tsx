@@ -4,7 +4,7 @@ import React from "react";
 
 // Define the prop types for the IconButton component
 interface IconButtonProps {
-  icon: keyof typeof MaterialIcons.glyphMap; // Ensures only valid icon names are used
+  icon: keyof typeof MaterialIcons.glyphMap;
   label: string;
   onPress: () => void;
 }
