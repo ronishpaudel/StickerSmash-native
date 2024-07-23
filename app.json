@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./component/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.robug001.expochatapp"
     },
     "web": {
       "favicon": "./component/assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d7cf8bad-70f9-40b6-af8f-5e4af7e55b40"
+      }
+    },
+    "owner": "robug001"
   }
 }
